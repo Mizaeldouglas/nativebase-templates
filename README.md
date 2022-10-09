@@ -1,38 +1,15 @@
-# Getting Started
+NativeBase + Solito Starter Template
+For a long long time the React Native community has been looking for a way to make Universal Apps a reality, and the major roadblock that was stopping us was Navigation. Solito is most probably the answer to that, and as we know NativeBase already works on all the three platforms. It’s a match made in heaven. So now your next can run with the same codebase on all the 3 platforms and we are here to show you how?
 
-```bash
-$ yarn add react-native-material-ui
-```
+Note: If you are looking to make your current codebase into a universal app, It’s really tricky and different for different codebases. Feel free to reach out to us on our Discord Server with such use cases, we will try to help you out as much as we can.
 
-** If you already use react-native-vector-icons in your project you are ready to go!**
+We have already done the hard work for you and created a starter kit for you to start with.
 
-## Setting of vector icons
+Getting Started
+Clone the repo: https://github.com/GeekyAnts/nativebase-templates/tree/master/solito-universal-app-template-nativebase
+Run yarn or npm install on the root directory.
+Then run yarn or npm install in apps/expo and apps/next.
+Now run yarn or npm install in packages/app.
+That’s it your starter kit is ready to be used.
 
-You can see [this repo](https://github.com/oblador/react-native-vector-icons) for much more information.
-
-### React Native Link (recommended)
-
-> Make sure you have atleast v0.31.0 react-native version.
-
-```bash
-$ react-native link react-native-vector-icons
-```
-
-### Manual Installation
-
-#### Android (see [original](https://github.com/oblador/react-native-vector-icons#android))
-
-Copy the `MaterialIcons` font file from [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons#android) to your local working directory:
-
-`./node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf` -> `./android/app/src/main/assets/fonts`.
-
-#### iOS (see [original](https://github.com/oblador/react-native-vector-icons#ios))
-
-## Adding Roboto Font
-
-This project uses Roboto as the main font for text. Make sure to add Roboto to your project, as it will give the following error on iOS.
-`Unrecognized font family Roboto`.
-
-You can obtain Roboto free from [here](https://fonts.google.com/specimen/Roboto).
-
-Here is a great tutorial which shows [how to add custom fonts](https://medium.com/@danielskripnik/how-to-add-and-remove-custom-fonts-in-react-native-b2830084b0e4).
+All your screens and components will be present in packages/app and this can be accessed in the next and expo projects.
